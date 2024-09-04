@@ -1,0 +1,12 @@
+C:\Users\ss\Desktop\ToDoList\Shared\ToDoList.Core\bin\Debug\net8.0\ToDoList.Core.deps.json
+C:\Users\ss\Desktop\ToDoList\Shared\ToDoList.Core\bin\Debug\net8.0\ToDoList.Core.dll
+C:\Users\ss\Desktop\ToDoList\Shared\ToDoList.Core\bin\Debug\net8.0\ToDoList.Core.pdb
+C:\Users\ss\Desktop\ToDoList\Shared\ToDoList.Core\obj\Debug\net8.0\ToDoList.Core.csproj.AssemblyReference.cache
+C:\Users\ss\Desktop\ToDoList\Shared\ToDoList.Core\obj\Debug\net8.0\ToDoList.Core.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ss\Desktop\ToDoList\Shared\ToDoList.Core\obj\Debug\net8.0\ToDoList.Core.AssemblyInfoInputs.cache
+C:\Users\ss\Desktop\ToDoList\Shared\ToDoList.Core\obj\Debug\net8.0\ToDoList.Core.AssemblyInfo.cs
+C:\Users\ss\Desktop\ToDoList\Shared\ToDoList.Core\obj\Debug\net8.0\ToDoList.Core.csproj.CoreCompileInputs.cache
+C:\Users\ss\Desktop\ToDoList\Shared\ToDoList.Core\obj\Debug\net8.0\ToDoList.Core.dll
+C:\Users\ss\Desktop\ToDoList\Shared\ToDoList.Core\obj\Debug\net8.0\refint\ToDoList.Core.dll
+C:\Users\ss\Desktop\ToDoList\Shared\ToDoList.Core\obj\Debug\net8.0\ToDoList.Core.pdb
+C:\Users\ss\Desktop\ToDoList\Shared\ToDoList.Core\obj\Debug\net8.0\ref\ToDoList.Core.dll

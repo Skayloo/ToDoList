@@ -1,0 +1,31 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <!--<Nullable>enable</Nullable>-->
+    <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
+    <OutputPath>../../modules_build/ToDoList.Api/net8.0/modules/stockapplications</OutputPath>
+    <DocumentationFile>../../modules_build/ToDoList.Stock/ToDoList.Stock.Core.xml</DocumentationFile>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|AnyCPU'">
+    <OutputPath>../../modules_build/ToDoList.Api/net8.0/modules/stockapplications</OutputPath>
+    <DocumentationFile>../../modules_build/ToDoList.Stock/ToDoList.Stock.Core.xml</DocumentationFile>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="AutoMapper" Version="13.0.1" />
+    <PackageReference Include="Microsoft.Extensions.Options.ConfigurationExtensions" Version="8.0.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\Shared\ToDoList.Abstractions\ToDoList.Abstractions.csproj" />
+    <ProjectReference Include="..\..\Shared\ToDoList.Core\ToDoList.Core.csproj" />
+    <ProjectReference Include="..\..\Shared\ToDoList.Db.Abstractions\ToDoList.Db.Abstractions.csproj" />
+    <ProjectReference Include="..\ToDoList.Stock.Db\ToDoList.Stock.Db.csproj" />
+  </ItemGroup>
+
+</Project>

@@ -1,0 +1,479 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\ss\\Desktop\\ToDoList\\ToDoList\\Stock\\ToDoList.Stock.Core\\ToDoList.Stock.Core.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\ss\\Desktop\\ToDoList\\ToDoList\\Shared\\ToDoList.Abstractions\\ToDoList.Abstractions.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\ss\\Desktop\\ToDoList\\ToDoList\\Shared\\ToDoList.Abstractions\\ToDoList.Abstractions.csproj",
+        "projectName": "ToDoList.Abstractions",
+        "projectPath": "C:\\Users\\ss\\Desktop\\ToDoList\\ToDoList\\Shared\\ToDoList.Abstractions\\ToDoList.Abstractions.csproj",
+        "packagesPath": "C:\\Users\\ss\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\ss\\Desktop\\ToDoList\\ToDoList\\Shared\\ToDoList.Abstractions\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\ss\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "C:\\Users\\ss\\Desktop\\ToDoList\\ToDoList\\Shared\\ToDoList.Domain.Abstractions\\ToDoList.Domain.Abstractions.csproj": {
+                "projectPath": "C:\\Users\\ss\\Desktop\\ToDoList\\ToDoList\\Shared\\ToDoList.Domain.Abstractions\\ToDoList.Domain.Abstractions.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "Autofac.Extensions.DependencyInjection": {
+              "target": "Package",
+              "version": "[9.0.0, )"
+            },
+            "FluentValidation": {
+              "target": "Package",
+              "version": "[11.9.2, )"
+            },
+            "MediatR": {
+              "target": "Package",
+              "version": "[12.3.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.300/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\ss\\Desktop\\ToDoList\\ToDoList\\Shared\\ToDoList.Core\\ToDoList.Core.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\ss\\Desktop\\ToDoList\\ToDoList\\Shared\\ToDoList.Core\\ToDoList.Core.csproj",
+        "projectName": "ToDoList.Core",
+        "projectPath": "C:\\Users\\ss\\Desktop\\ToDoList\\ToDoList\\Shared\\ToDoList.Core\\ToDoList.Core.csproj",
+        "packagesPath": "C:\\Users\\ss\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\ss\\Desktop\\ToDoList\\ToDoList\\Shared\\ToDoList.Core\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\ss\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "C:\\Users\\ss\\Desktop\\ToDoList\\ToDoList\\Shared\\ToDoList.Abstractions\\ToDoList.Abstractions.csproj": {
+                "projectPath": "C:\\Users\\ss\\Desktop\\ToDoList\\ToDoList\\Shared\\ToDoList.Abstractions\\ToDoList.Abstractions.csproj"
+              },
+              "C:\\Users\\ss\\Desktop\\ToDoList\\ToDoList\\Shared\\ToDoList.Db.Abstractions\\ToDoList.Db.Abstractions.csproj": {
+                "projectPath": "C:\\Users\\ss\\Desktop\\ToDoList\\ToDoList\\Shared\\ToDoList.Db.Abstractions\\ToDoList.Db.Abstractions.csproj"
+              },
+              "C:\\Users\\ss\\Desktop\\ToDoList\\ToDoList\\Stock\\ToDoList.Stock.Db\\ToDoList.Stock.Db.csproj": {
+                "projectPath": "C:\\Users\\ss\\Desktop\\ToDoList\\ToDoList\\Stock\\ToDoList.Stock.Db\\ToDoList.Stock.Db.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "Asp.Versioning.Mvc.ApiExplorer": {
+              "target": "Package",
+              "version": "[8.1.0, )"
+            },
+            "FluentValidation": {
+              "target": "Package",
+              "version": "[11.9.2, )"
+            },
+            "Microsoft.Extensions.DependencyModel": {
+              "target": "Package",
+              "version": "[8.0.1, )"
+            },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[13.0.3, )"
+            },
+            "Serilog": {
+              "target": "Package",
+              "version": "[4.0.0, )"
+            },
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[6.6.2, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.300/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\ss\\Desktop\\ToDoList\\ToDoList\\Shared\\ToDoList.Db.Abstractions\\ToDoList.Db.Abstractions.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\ss\\Desktop\\ToDoList\\ToDoList\\Shared\\ToDoList.Db.Abstractions\\ToDoList.Db.Abstractions.csproj",
+        "projectName": "ToDoList.Db.Abstractions",
+        "projectPath": "C:\\Users\\ss\\Desktop\\ToDoList\\ToDoList\\Shared\\ToDoList.Db.Abstractions\\ToDoList.Db.Abstractions.csproj",
+        "packagesPath": "C:\\Users\\ss\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\ss\\Desktop\\ToDoList\\ToDoList\\Shared\\ToDoList.Db.Abstractions\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\ss\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "C:\\Users\\ss\\Desktop\\ToDoList\\ToDoList\\Shared\\ToDoList.Abstractions\\ToDoList.Abstractions.csproj": {
+                "projectPath": "C:\\Users\\ss\\Desktop\\ToDoList\\ToDoList\\Shared\\ToDoList.Abstractions\\ToDoList.Abstractions.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "Autofac": {
+              "target": "Package",
+              "version": "[8.0.0, )"
+            },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[8.0.7, )"
+            },
+            "Npgsql.EntityFrameworkCore.PostgreSQL": {
+              "target": "Package",
+              "version": "[8.0.4, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.300/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\ss\\Desktop\\ToDoList\\ToDoList\\Shared\\ToDoList.Domain.Abstractions\\ToDoList.Domain.Abstractions.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\ss\\Desktop\\ToDoList\\ToDoList\\Shared\\ToDoList.Domain.Abstractions\\ToDoList.Domain.Abstractions.csproj",
+        "projectName": "ToDoList.Domain.Abstractions",
+        "projectPath": "C:\\Users\\ss\\Desktop\\ToDoList\\ToDoList\\Shared\\ToDoList.Domain.Abstractions\\ToDoList.Domain.Abstractions.csproj",
+        "packagesPath": "C:\\Users\\ss\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\ss\\Desktop\\ToDoList\\ToDoList\\Shared\\ToDoList.Domain.Abstractions\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\ss\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.300/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\ss\\Desktop\\ToDoList\\ToDoList\\Stock\\ToDoList.Stock.Core\\ToDoList.Stock.Core.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\ss\\Desktop\\ToDoList\\ToDoList\\Stock\\ToDoList.Stock.Core\\ToDoList.Stock.Core.csproj",
+        "projectName": "ToDoList.Stock.Core",
+        "projectPath": "C:\\Users\\ss\\Desktop\\ToDoList\\ToDoList\\Stock\\ToDoList.Stock.Core\\ToDoList.Stock.Core.csproj",
+        "packagesPath": "C:\\Users\\ss\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\ss\\Desktop\\ToDoList\\ToDoList\\Stock\\ToDoList.Stock.Core\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\ss\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "C:\\Users\\ss\\Desktop\\ToDoList\\ToDoList\\Shared\\ToDoList.Abstractions\\ToDoList.Abstractions.csproj": {
+                "projectPath": "C:\\Users\\ss\\Desktop\\ToDoList\\ToDoList\\Shared\\ToDoList.Abstractions\\ToDoList.Abstractions.csproj"
+              },
+              "C:\\Users\\ss\\Desktop\\ToDoList\\ToDoList\\Shared\\ToDoList.Core\\ToDoList.Core.csproj": {
+                "projectPath": "C:\\Users\\ss\\Desktop\\ToDoList\\ToDoList\\Shared\\ToDoList.Core\\ToDoList.Core.csproj"
+              },
+              "C:\\Users\\ss\\Desktop\\ToDoList\\ToDoList\\Shared\\ToDoList.Db.Abstractions\\ToDoList.Db.Abstractions.csproj": {
+                "projectPath": "C:\\Users\\ss\\Desktop\\ToDoList\\ToDoList\\Shared\\ToDoList.Db.Abstractions\\ToDoList.Db.Abstractions.csproj"
+              },
+              "C:\\Users\\ss\\Desktop\\ToDoList\\ToDoList\\Stock\\ToDoList.Stock.Db\\ToDoList.Stock.Db.csproj": {
+                "projectPath": "C:\\Users\\ss\\Desktop\\ToDoList\\ToDoList\\Stock\\ToDoList.Stock.Db\\ToDoList.Stock.Db.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "AutoMapper": {
+              "target": "Package",
+              "version": "[13.0.1, )"
+            },
+            "Microsoft.Extensions.Options.ConfigurationExtensions": {
+              "target": "Package",
+              "version": "[8.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.300/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\ss\\Desktop\\ToDoList\\ToDoList\\Stock\\ToDoList.Stock.Db\\ToDoList.Stock.Db.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\ss\\Desktop\\ToDoList\\ToDoList\\Stock\\ToDoList.Stock.Db\\ToDoList.Stock.Db.csproj",
+        "projectName": "ToDoList.Stock.Db",
+        "projectPath": "C:\\Users\\ss\\Desktop\\ToDoList\\ToDoList\\Stock\\ToDoList.Stock.Db\\ToDoList.Stock.Db.csproj",
+        "packagesPath": "C:\\Users\\ss\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\ss\\Desktop\\ToDoList\\ToDoList\\Stock\\ToDoList.Stock.Db\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\ss\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "C:\\Users\\ss\\Desktop\\ToDoList\\ToDoList\\Shared\\ToDoList.Db.Abstractions\\ToDoList.Db.Abstractions.csproj": {
+                "projectPath": "C:\\Users\\ss\\Desktop\\ToDoList\\ToDoList\\Shared\\ToDoList.Db.Abstractions\\ToDoList.Db.Abstractions.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[13.0.3, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.300/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
